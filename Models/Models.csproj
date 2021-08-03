@@ -125,11 +125,11 @@
     <EmbeddedResource Include="Properties\Models.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="linq2db">
-      <Version>3.4.2</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.12</Version>
+    </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.7.335</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

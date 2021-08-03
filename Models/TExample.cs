@@ -1,4 +1,4 @@
-﻿using LinqToDB.Mapping;
+﻿using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace Models
 {
     public class TExample
     {
-        [PrimaryKey, Identity]
+        [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Name { get; set; }
         public string URL { get; set; }
